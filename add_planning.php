@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Establish database connection
-    $conn = mysqli_connect('localhost:3306', 'root', '', 'succession');
+    $conn = mysqli_connect('localhost:3306', 'root', '', 'successions');
 
     // Check connection
     if (!$conn) {
